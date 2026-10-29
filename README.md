@@ -68,19 +68,21 @@ The steps follow the phases of the **Generic Statistical Business Process Model*
 
 Where the workflow uses a rule of its own rather than a standard (for example, a minimum of 30 households per figure), the step says so.
 
-## Lessons for survey analysis
+## Lessons learnt
 
-What applying the workflow to the Sudan survey showed, and why each step is there:
+What the Sudan survey showed, and why each step of the workflow is there:
 
-| Lesson | What happened in the Sudan data |
-|---|---|
-| **Check derived variables against their source questions.** | The survey's "disability in the household" variable left out the respondent; using it alone would have missed almost half of the households concerned (673 found instead of 1,257). |
-| **Reconcile the sample with published figures before analysing.** | The published report and the dataset define "displaced" differently: 515 people classed as non-displaced answered the questions for displaced people. |
-| **Read the routing.** | Questions asked only of a subgroup (for example, "unable to move freely", asked only of those who feel less safe) cannot measure how common something is. |
-| **Compare answer lists between groups.** | Displaced and host households were offered different answers on meals per day, so that indicator was dropped. |
-| **Fix the rules before seeing the results.** | What counts as a "clear" gap, and how many states a group must be behind in, were set in advance. |
-| **Try to reproduce the published report.** | 17 of 24 published figures were reproduced within 2 points; one large difference is consistent with a denominator error in the report (a hypothesis, not proven). |
-| **Aggregates can be safe when the microdata are not.** | Adding location makes about 1 household in 4 unique or rare, so only state-level results are published. |
+1. **Don't trust ready-made variables without checking them.** The dataset had a ready-made variable for "a household member has a disability". When I checked it against the original questions, it counted only the other household members, not the person interviewed. Used as it was, it would have missed almost half of the households with a disability.
+
+2. **Check who is in each group.** Each household is labelled as displaced or not. But 515 households labelled "not displaced" had answered the questions meant for displaced people, and most said where they had fled from. Their label was probably wrong, so I left them out and tested whether this changed the results: one result out of 56 changed.
+
+3. **Check who was asked each question.** Some questions were asked only to people who gave a certain answer earlier. For example, only people who said they felt less safe were asked whether they could move freely. Those answers describe that smaller group, not all households, so I didn't use them to compare groups.
+
+4. **Check that both groups were offered the same answers.** When asked how many meals they eat a day, displaced people could answer "no regular meals", but host households could not. A comparison on this question would not have been fair, so I dropped it.
+
+5. **Compare your results with the published report.** I recalculated 24 figures from the survey's published report and 17 matched within 2 points. The biggest difference: the report says 34% of host households urgently need basic household items, but the data say 84%. Dividing by all households instead of host households gives 32.5%, so the report may have used the wrong total.
+
+6. **Publishing summary tables can be safe even when the full data are not.** On their own, the data look anonymous. But once you add the settlement where people live, about 1 household in 4 becomes almost unique and could be recognised. So I publish results by state only, never the household data.
 
 The findings about Sudan itself are in the [4-page brief](sudan-example/brief.pdf).
 
