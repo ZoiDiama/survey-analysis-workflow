@@ -1,0 +1,25 @@
+grouping,group,indicator,states_reported,clearly_worse_off,clearly_better_off,consistently_worse_off,summary
+Disability in household,Yes,1 Not able to access enough food,8,2,0,FALSE,Clearly worse off in 2 of 8 states
+Disability in household,Yes,2 No household member earning from work,8,0,0,FALSE,Clearly worse off in 0 of 8 states
+Disability in household,Yes,3 Difficulty accessing safe drinking water,8,1,0,FALSE,Clearly worse off in 1 of 8 states
+Disability in household,Yes,7 Child aged 6-14 attends school,4,0,0,FALSE,Clearly worse off in 0 of 4 states
+Sex of respondent,Female,1 Not able to access enough food,8,1,0,FALSE,Clearly worse off in 1 of 8 states
+Sex of respondent,Female,2 No household member earning from work,8,1,1,FALSE,Clearly worse off in 1 of 8 states
+Sex of respondent,Female,3 Difficulty accessing safe drinking water,8,2,0,FALSE,Clearly worse off in 2 of 8 states
+Sex of respondent,Female,7 Child aged 6-14 attends school,8,1,1,FALSE,Clearly worse off in 1 of 8 states
+Shelter type,Camps and sites,1 Not able to access enough food,7,2,0,FALSE,Clearly worse off in 2 of 7 states
+Shelter type,Camps and sites,2 No household member earning from work,7,3,0,FALSE,Clearly worse off in 3 of 7 states
+Shelter type,Camps and sites,3 Difficulty accessing safe drinking water,7,1,0,FALSE,Clearly worse off in 1 of 7 states
+Shelter type,Camps and sites,7 Child aged 6-14 attends school,7,1,1,FALSE,Clearly worse off in 1 of 7 states
+Shelter type,Host family,1 Not able to access enough food,7,0,1,FALSE,Clearly worse off in 0 of 7 states
+Shelter type,Host family,2 No household member earning from work,7,0,0,FALSE,Clearly worse off in 0 of 7 states
+Shelter type,Host family,3 Difficulty accessing safe drinking water,7,0,1,FALSE,Clearly worse off in 0 of 7 states
+Shelter type,Host family,7 Child aged 6-14 attends school,6,2,1,FALSE,Clearly worse off in 2 of 6 states
+Shelter type,Other,1 Not able to access enough food,3,1,0,FALSE,Not enough states to judge (3 reportable)
+Shelter type,Other,2 No household member earning from work,3,0,0,FALSE,Not enough states to judge (3 reportable)
+Shelter type,Other,3 Difficulty accessing safe drinking water,3,1,1,FALSE,Not enough states to judge (3 reportable)
+Shelter type,Other,7 Child aged 6-14 attends school,1,0,1,FALSE,Not enough states to judge (1 reportable)
+Shelter type,Rented,1 Not able to access enough food,5,0,0,FALSE,Clearly worse off in 0 of 5 states
+Shelter type,Rented,2 No household member earning from work,5,0,4,FALSE,Clearly worse off in 0 of 5 states
+Shelter type,Rented,3 Difficulty accessing safe drinking water,5,1,1,FALSE,Clearly worse off in 1 of 5 states
+Shelter type,Rented,7 Child aged 6-14 attends school,2,1,0,FALSE,Not enough states to judge (2 reportable)

@@ -1,0 +1,17 @@
+indicator,state,n,pct_before,pct_now,change,ci_low,ci_high
+R1 Not able to access enough food,Blue Nile,853,6.1,88.4,82.3,77.1,87.5
+R1 Not able to access enough food,Gedaref,1058,7.6,66.4,58.9,44.7,73
+R1 Not able to access enough food,Kassala,686,9.3,74.6,65.3,57.7,72.9
+R1 Not able to access enough food,Northern,1136,7.7,58.7,51,36.6,65.3
+R1 Not able to access enough food,Red Sea,622,19.6,44.5,24.9,10.5,39.4
+R1 Not able to access enough food,River Nile,386,10.4,71.5,61.1,50,72.3
+R1 Not able to access enough food,Sennar,380,2.6,85.8,83.2,72.4,93.9
+R1 Not able to access enough food,White Nile,842,3.4,77.8,74.3,70.6,78.1
+R2 No household member earning from work,Blue Nile,853,9.1,66.6,57.4,51.7,63.2
+R2 No household member earning from work,Gedaref,1058,6.1,56.6,50.5,42.5,58.5
+R2 No household member earning from work,Kassala,686,9.5,67.2,57.7,51.5,64
+R2 No household member earning from work,Northern,1136,8.6,46.6,37.9,23.1,52.8
+R2 No household member earning from work,Red Sea,622,9.2,34.6,25.4,19.6,31.2
+R2 No household member earning from work,River Nile,386,10.6,37.3,26.7,16,37.4
+R2 No household member earning from work,Sennar,380,7.4,77.1,69.7,64.1,75.4
+R2 No household member earning from work,White Nile,842,10.9,67.2,56.3,51.1,61.5

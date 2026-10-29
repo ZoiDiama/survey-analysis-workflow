@@ -1,0 +1,193 @@
+grouping,group,indicator,state,n_group,n_other_idps,pct_group,pct_other_idps,difference,ci_low,ci_high,reported,clear,worse_off,flag
+Sex of respondent,Female,1 Not able to access enough food,Blue Nile,486,367,90.1,86.1,4,-3.6,11.6,TRUE,FALSE,No clear difference,
+Sex of respondent,Female,1 Not able to access enough food,Gedaref,761,297,69.4,58.9,10.5,2.5,18.5,TRUE,TRUE,Group,
+Sex of respondent,Female,1 Not able to access enough food,Kassala,421,265,74.6,74.7,-0.1,-8.1,7.8,TRUE,FALSE,No clear difference,
+Sex of respondent,Female,1 Not able to access enough food,Northern,831,305,60.9,52.8,8.1,-3.3,19.5,TRUE,FALSE,No clear difference,
+Sex of respondent,Female,1 Not able to access enough food,Red Sea,452,170,45.4,42.4,3,-14,20,TRUE,FALSE,No clear difference,
+Sex of respondent,Female,1 Not able to access enough food,River Nile,228,158,72.4,70.3,2.1,-8.3,12.5,TRUE,FALSE,No clear difference,
+Sex of respondent,Female,1 Not able to access enough food,Sennar,263,117,87.1,82.9,4.2,-5.3,13.6,TRUE,FALSE,No clear difference,
+Sex of respondent,Female,1 Not able to access enough food,White Nile,532,309,77.6,78,-0.4,-6.4,5.7,TRUE,FALSE,No clear difference,
+Sex of respondent,Female,2 No household member earning from work,Blue Nile,486,367,65.8,67.6,-1.7,-10.9,7.4,TRUE,FALSE,No clear difference,
+Sex of respondent,Female,2 No household member earning from work,Gedaref,761,297,55.8,58.6,-2.7,-15.7,10.3,TRUE,FALSE,No clear difference,
+Sex of respondent,Female,2 No household member earning from work,Kassala,421,265,63.4,73.2,-9.8,-17.2,-2.4,TRUE,TRUE,Other IDPs,
+Sex of respondent,Female,2 No household member earning from work,Northern,831,305,51,34.4,16.6,5.5,27.7,TRUE,TRUE,Group,
+Sex of respondent,Female,2 No household member earning from work,Red Sea,452,170,35.2,32.9,2.2,-7.1,11.6,TRUE,FALSE,No clear difference,
+Sex of respondent,Female,2 No household member earning from work,River Nile,228,158,36.8,38,-1.1,-11.3,9,TRUE,FALSE,No clear difference,
+Sex of respondent,Female,2 No household member earning from work,Sennar,263,117,76.4,78.6,-2.2,-14.2,9.8,TRUE,FALSE,No clear difference,
+Sex of respondent,Female,2 No household member earning from work,White Nile,532,309,65.4,70.2,-4.8,-12.7,3.1,TRUE,FALSE,No clear difference,
+Sex of respondent,Female,3 Difficulty accessing safe drinking water,Blue Nile,486,367,39.9,38.1,1.8,-9,12.6,TRUE,FALSE,No clear difference,
+Sex of respondent,Female,3 Difficulty accessing safe drinking water,Gedaref,761,297,50.1,50.8,-0.8,-10.2,8.6,TRUE,FALSE,No clear difference,
+Sex of respondent,Female,3 Difficulty accessing safe drinking water,Kassala,421,265,27.8,35.8,-8.1,-16.4,0.3,TRUE,FALSE,No clear difference,
+Sex of respondent,Female,3 Difficulty accessing safe drinking water,Northern,831,305,38.9,27.2,11.7,5,18.3,TRUE,TRUE,Group,
+Sex of respondent,Female,3 Difficulty accessing safe drinking water,Red Sea,452,170,83.6,81.8,1.9,-5.7,9.5,TRUE,FALSE,No clear difference,
+Sex of respondent,Female,3 Difficulty accessing safe drinking water,River Nile,228,158,37.7,38,-0.3,-10,9.5,TRUE,FALSE,No clear difference,
+Sex of respondent,Female,3 Difficulty accessing safe drinking water,Sennar,263,117,52.9,41,11.8,0.9,22.8,TRUE,TRUE,Group,
+Sex of respondent,Female,3 Difficulty accessing safe drinking water,White Nile,532,309,40.2,38.5,1.7,-6.2,9.6,TRUE,FALSE,No clear difference,
+Sex of respondent,Female,7 Child aged 6-14 attends school,Blue Nile,146,117,15.1,17.9,-2.9,-15.1,9.3,TRUE,FALSE,No clear difference,
+Sex of respondent,Female,7 Child aged 6-14 attends school,Gedaref,327,118,67.3,47.5,19.8,4,35.6,TRUE,TRUE,Other IDPs,
+Sex of respondent,Female,7 Child aged 6-14 attends school,Kassala,167,106,20.4,14.2,6.2,-5.8,18.3,TRUE,FALSE,No clear difference,
+Sex of respondent,Female,7 Child aged 6-14 attends school,Northern,315,97,55.9,70.1,-14.2,-27.1,-1.3,TRUE,TRUE,Group,
+Sex of respondent,Female,7 Child aged 6-14 attends school,Red Sea,132,38,15.2,10.5,4.6,-8.9,18.2,TRUE,FALSE,No clear difference,Interpret with caution (30-49)
+Sex of respondent,Female,7 Child aged 6-14 attends school,River Nile,57,41,43.9,48.8,-4.9,-22.7,12.8,TRUE,FALSE,No clear difference,Interpret with caution (30-49)
+Sex of respondent,Female,7 Child aged 6-14 attends school,Sennar,80,38,0,0,0,0,0,TRUE,FALSE,No clear difference,Interpret with caution (30-49)
+Sex of respondent,Female,7 Child aged 6-14 attends school,White Nile,159,111,6.3,2.7,3.6,-1.4,8.6,TRUE,FALSE,No clear difference,
+Disability in household,Yes,1 Not able to access enough food,Blue Nile,100,753,93,87.8,5.2,-1.8,12.2,TRUE,FALSE,No clear difference,
+Disability in household,Yes,1 Not able to access enough food,Gedaref,92,966,71.7,65.9,5.8,-4.6,16.2,TRUE,FALSE,No clear difference,
+Disability in household,Yes,1 Not able to access enough food,Kassala,123,563,62.6,77.3,-14.7,-31,1.6,TRUE,FALSE,No clear difference,
+Disability in household,Yes,1 Not able to access enough food,Northern,190,945,54.7,59.6,-4.8,-12.5,2.8,TRUE,FALSE,No clear difference,
+Disability in household,Yes,1 Not able to access enough food,Red Sea,56,566,69.6,42,27.6,13.8,41.4,TRUE,TRUE,Group,
+Disability in household,Yes,1 Not able to access enough food,River Nile,84,302,84.5,67.9,16.6,7.1,26.2,TRUE,TRUE,Group,
+Disability in household,Yes,1 Not able to access enough food,Sennar,31,349,80.6,86.2,-5.6,-14.7,3.5,TRUE,FALSE,No clear difference,Interpret with caution (30-49)
+Disability in household,Yes,1 Not able to access enough food,White Nile,91,750,72.5,78.4,-5.9,-15.9,4.1,TRUE,FALSE,No clear difference,
+Disability in household,Yes,2 No household member earning from work,Blue Nile,100,753,65,66.8,-1.8,-14,10.4,TRUE,FALSE,No clear difference,
+Disability in household,Yes,2 No household member earning from work,Gedaref,92,966,63,56,7,-9.5,23.5,TRUE,FALSE,No clear difference,
+Disability in household,Yes,2 No household member earning from work,Kassala,123,563,71.5,66.3,5.3,-4.9,15.5,TRUE,FALSE,No clear difference,
+Disability in household,Yes,2 No household member earning from work,Northern,190,945,50.5,45.8,4.7,-5.6,15,TRUE,FALSE,No clear difference,
+Disability in household,Yes,2 No household member earning from work,Red Sea,56,566,35.7,34.5,1.3,-10.4,13,TRUE,FALSE,No clear difference,
+Disability in household,Yes,2 No household member earning from work,River Nile,84,302,36.9,37.4,-0.5,-13.6,12.6,TRUE,FALSE,No clear difference,
+Disability in household,Yes,2 No household member earning from work,Sennar,31,349,83.9,76.5,7.4,-0.3,15.1,TRUE,FALSE,No clear difference,Interpret with caution (30-49)
+Disability in household,Yes,2 No household member earning from work,White Nile,91,750,70.3,66.9,3.4,-6.1,12.9,TRUE,FALSE,No clear difference,
+Disability in household,Yes,3 Difficulty accessing safe drinking water,Blue Nile,100,753,43,38.6,4.4,-8,16.7,TRUE,FALSE,No clear difference,
+Disability in household,Yes,3 Difficulty accessing safe drinking water,Gedaref,92,966,57.6,49.6,8,-4.2,20.2,TRUE,FALSE,No clear difference,
+Disability in household,Yes,3 Difficulty accessing safe drinking water,Kassala,123,563,31.7,30.7,1,-11.4,13.4,TRUE,FALSE,No clear difference,
+Disability in household,Yes,3 Difficulty accessing safe drinking water,Northern,190,945,37.9,35.2,2.7,-6.2,11.5,TRUE,FALSE,No clear difference,
+Disability in household,Yes,3 Difficulty accessing safe drinking water,Red Sea,56,566,75,83.9,-8.9,-22,4.1,TRUE,FALSE,No clear difference,
+Disability in household,Yes,3 Difficulty accessing safe drinking water,River Nile,84,302,41.7,36.8,4.9,-8.9,18.7,TRUE,FALSE,No clear difference,
+Disability in household,Yes,3 Difficulty accessing safe drinking water,Sennar,31,349,58.1,48.4,9.6,-2.9,22.2,TRUE,FALSE,No clear difference,Interpret with caution (30-49)
+Disability in household,Yes,3 Difficulty accessing safe drinking water,White Nile,91,750,58.2,37.3,20.9,10.8,31.1,TRUE,TRUE,Group,
+Disability in household,Yes,7 Child aged 6-14 attends school,Blue Nile,38,225,18.4,16,2.4,-14.2,19,TRUE,FALSE,No clear difference,Interpret with caution (30-49)
+Disability in household,Yes,7 Child aged 6-14 attends school,Gedaref,40,405,50,63.2,-13.2,-26.6,0.2,TRUE,FALSE,No clear difference,Interpret with caution (30-49)
+Disability in household,Yes,7 Child aged 6-14 attends school,Kassala,50,223,10,19.7,-9.7,-23.3,3.9,TRUE,FALSE,No clear difference,
+Disability in household,Yes,7 Child aged 6-14 attends school,Northern,65,347,64.6,58.2,6.4,-5.9,18.7,TRUE,FALSE,No clear difference,
+Disability in household,Yes,7 Child aged 6-14 attends school,Red Sea,17,153,,14.4,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Disability in household,Yes,7 Child aged 6-14 attends school,River Nile,22,76,,44.7,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Disability in household,Yes,7 Child aged 6-14 attends school,Sennar,9,109,,0,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Disability in household,Yes,7 Child aged 6-14 attends school,White Nile,28,242,,5,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Camps and sites,1 Not able to access enough food,Blue Nile,411,442,89.8,87.1,2.7,-5.8,11.2,TRUE,FALSE,No clear difference,
+Shelter type,Camps and sites,1 Not able to access enough food,Gedaref,483,575,82,53.4,28.6,15.1,42.1,TRUE,TRUE,Group,
+Shelter type,Camps and sites,1 Not able to access enough food,Kassala,513,173,77.4,66.5,10.9,-9.4,31.2,TRUE,FALSE,No clear difference,
+Shelter type,Camps and sites,1 Not able to access enough food,Northern,798,338,59.5,56.8,2.7,-17.1,22.6,TRUE,FALSE,No clear difference,
+Shelter type,Camps and sites,1 Not able to access enough food,Red Sea,176,446,52.3,41.5,10.8,-8,29.6,TRUE,FALSE,No clear difference,
+Shelter type,Camps and sites,1 Not able to access enough food,River Nile,229,157,77.7,62.4,15.3,7.4,23.2,TRUE,TRUE,Group,
+Shelter type,Camps and sites,1 Not able to access enough food,Sennar,380,0,85.8,,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Camps and sites,1 Not able to access enough food,White Nile,699,143,78.1,76.2,1.9,-6.7,10.5,TRUE,FALSE,No clear difference,
+Shelter type,Camps and sites,2 No household member earning from work,Blue Nile,411,442,67.9,65.4,2.5,-8.7,13.7,TRUE,FALSE,No clear difference,
+Shelter type,Camps and sites,2 No household member earning from work,Gedaref,483,575,57.6,55.8,1.7,-18.8,22.3,TRUE,FALSE,No clear difference,
+Shelter type,Camps and sites,2 No household member earning from work,Kassala,513,173,69,61.8,7.2,-9.8,24.1,TRUE,FALSE,No clear difference,
+Shelter type,Camps and sites,2 No household member earning from work,Northern,798,338,53,31.4,21.6,1.6,41.6,TRUE,TRUE,Group,
+Shelter type,Camps and sites,2 No household member earning from work,Red Sea,176,446,48.9,28.9,19.9,5,34.9,TRUE,TRUE,Group,
+Shelter type,Camps and sites,2 No household member earning from work,River Nile,229,157,46.7,23.6,23.2,5,41.4,TRUE,TRUE,Group,
+Shelter type,Camps and sites,2 No household member earning from work,Sennar,380,0,77.1,,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Camps and sites,2 No household member earning from work,White Nile,699,143,68.5,60.8,7.7,-3.5,18.9,TRUE,FALSE,No clear difference,
+Shelter type,Camps and sites,3 Difficulty accessing safe drinking water,Blue Nile,411,442,33.6,44.3,-10.8,-28.1,6.6,TRUE,FALSE,No clear difference,
+Shelter type,Camps and sites,3 Difficulty accessing safe drinking water,Gedaref,483,575,52.2,48.7,3.5,-13.5,20.5,TRUE,FALSE,No clear difference,
+Shelter type,Camps and sites,3 Difficulty accessing safe drinking water,Kassala,513,173,28.8,37,-8.1,-21.8,5.5,TRUE,FALSE,No clear difference,
+Shelter type,Camps and sites,3 Difficulty accessing safe drinking water,Northern,798,338,41,23.4,17.6,7.1,28.1,TRUE,TRUE,Group,
+Shelter type,Camps and sites,3 Difficulty accessing safe drinking water,Red Sea,176,446,74.4,86.5,-12.1,-25.9,1.7,TRUE,FALSE,No clear difference,
+Shelter type,Camps and sites,3 Difficulty accessing safe drinking water,River Nile,229,157,40.6,33.8,6.9,-3.4,17.2,TRUE,FALSE,No clear difference,
+Shelter type,Camps and sites,3 Difficulty accessing safe drinking water,Sennar,380,0,49.2,,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Camps and sites,3 Difficulty accessing safe drinking water,White Nile,699,143,38.8,43.4,-4.6,-18.9,9.7,TRUE,FALSE,No clear difference,
+Shelter type,Camps and sites,7 Child aged 6-14 attends school,Blue Nile,115,148,11.3,20.3,-9,-24.3,6.4,TRUE,FALSE,No clear difference,
+Shelter type,Camps and sites,7 Child aged 6-14 attends school,Gedaref,209,236,65.6,58.9,6.7,-13.6,26.9,TRUE,FALSE,No clear difference,
+Shelter type,Camps and sites,7 Child aged 6-14 attends school,Kassala,194,79,21.6,8.9,12.8,0.4,25.2,TRUE,TRUE,Other IDPs,
+Shelter type,Camps and sites,7 Child aged 6-14 attends school,Northern,305,107,52.1,79.4,-27.3,-40.6,-14,TRUE,TRUE,Group,
+Shelter type,Camps and sites,7 Child aged 6-14 attends school,Red Sea,64,106,18.8,11.3,7.4,-10.3,25.1,TRUE,FALSE,No clear difference,
+Shelter type,Camps and sites,7 Child aged 6-14 attends school,River Nile,54,44,33.3,61.4,-28,-62.8,6.8,TRUE,FALSE,No clear difference,Interpret with caution (30-49)
+Shelter type,Camps and sites,7 Child aged 6-14 attends school,Sennar,118,0,0,,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Camps and sites,7 Child aged 6-14 attends school,White Nile,224,46,5.4,2.2,3.2,-2.6,9,TRUE,FALSE,No clear difference,Interpret with caution (30-49)
+Shelter type,Host family,1 Not able to access enough food,Blue Nile,312,541,85.3,90.2,-4.9,-11.7,1.8,TRUE,FALSE,No clear difference,
+Shelter type,Host family,1 Not able to access enough food,Gedaref,484,574,54.3,76.7,-22.3,-36.6,-8,TRUE,TRUE,Other IDPs,
+Shelter type,Host family,1 Not able to access enough food,Kassala,115,571,67.8,76,-8.2,-30.2,13.8,TRUE,FALSE,No clear difference,
+Shelter type,Host family,1 Not able to access enough food,Northern,160,976,61.9,58.2,3.7,-14.4,21.8,TRUE,FALSE,No clear difference,
+Shelter type,Host family,1 Not able to access enough food,Red Sea,211,411,43.6,45,-1.4,-15.9,13.1,TRUE,FALSE,No clear difference,
+Shelter type,Host family,1 Not able to access enough food,River Nile,64,322,64.1,73,-8.9,-30.7,12.9,TRUE,FALSE,No clear difference,
+Shelter type,Host family,1 Not able to access enough food,Sennar,0,380,,85.8,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Host family,1 Not able to access enough food,White Nile,105,737,77.1,77.9,-0.7,-9.8,8.3,TRUE,FALSE,No clear difference,
+Shelter type,Host family,2 No household member earning from work,Blue Nile,312,541,69.9,64.7,5.2,-3.4,13.8,TRUE,FALSE,No clear difference,
+Shelter type,Host family,2 No household member earning from work,Gedaref,484,574,57.9,55.6,2.3,-14.6,19.1,TRUE,FALSE,No clear difference,
+Shelter type,Host family,2 No household member earning from work,Kassala,115,571,69.6,66.7,2.8,-11.2,16.9,TRUE,FALSE,No clear difference,
+Shelter type,Host family,2 No household member earning from work,Northern,160,976,35.6,48.4,-12.7,-30.8,5.4,TRUE,FALSE,No clear difference,
+Shelter type,Host family,2 No household member earning from work,Red Sea,211,411,35.5,34.1,1.5,-10.6,13.6,TRUE,FALSE,No clear difference,
+Shelter type,Host family,2 No household member earning from work,River Nile,64,322,29.7,38.8,-9.1,-32.4,14.1,TRUE,FALSE,No clear difference,
+Shelter type,Host family,2 No household member earning from work,Sennar,0,380,,77.1,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Host family,2 No household member earning from work,White Nile,105,737,65.7,67.4,-1.7,-12.8,9.4,TRUE,FALSE,No clear difference,
+Shelter type,Host family,3 Difficulty accessing safe drinking water,Blue Nile,312,541,31.7,43.4,-11.7,-25.9,2.5,TRUE,FALSE,No clear difference,
+Shelter type,Host family,3 Difficulty accessing safe drinking water,Gedaref,484,574,47.9,52.3,-4.3,-23.1,14.4,TRUE,FALSE,No clear difference,
+Shelter type,Host family,3 Difficulty accessing safe drinking water,Kassala,115,571,39.1,29.2,9.9,-4.5,24.3,TRUE,FALSE,No clear difference,
+Shelter type,Host family,3 Difficulty accessing safe drinking water,Northern,160,976,20.6,38.2,-17.6,-29.2,-6,TRUE,TRUE,Other IDPs,
+Shelter type,Host family,3 Difficulty accessing safe drinking water,Red Sea,211,411,87.7,80.8,6.9,-4.7,18.5,TRUE,FALSE,No clear difference,
+Shelter type,Host family,3 Difficulty accessing safe drinking water,River Nile,64,322,35.9,38.2,-2.3,-15.7,11.2,TRUE,FALSE,No clear difference,
+Shelter type,Host family,3 Difficulty accessing safe drinking water,Sennar,0,380,,49.2,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Host family,3 Difficulty accessing safe drinking water,White Nile,105,737,46.7,38.5,8.1,-7.1,23.4,TRUE,FALSE,No clear difference,
+Shelter type,Host family,7 Child aged 6-14 attends school,Blue Nile,111,152,24.3,10.5,13.8,-2.3,29.9,TRUE,FALSE,No clear difference,
+Shelter type,Host family,7 Child aged 6-14 attends school,Gedaref,198,247,57.6,65.6,-8,-25.7,9.6,TRUE,FALSE,No clear difference,
+Shelter type,Host family,7 Child aged 6-14 attends school,Kassala,54,219,0,22.4,-22.4,-34.7,-10,TRUE,TRUE,Group,
+Shelter type,Host family,7 Child aged 6-14 attends school,Northern,45,367,77.8,56.9,20.8,4.8,36.9,TRUE,TRUE,Other IDPs,Interpret with caution (30-49)
+Shelter type,Host family,7 Child aged 6-14 attends school,Red Sea,57,113,15.8,13.3,2.5,-11.4,16.5,TRUE,FALSE,No clear difference,
+Shelter type,Host family,7 Child aged 6-14 attends school,River Nile,22,76,,39.5,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Host family,7 Child aged 6-14 attends school,Sennar,0,118,,0,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Host family,7 Child aged 6-14 attends school,White Nile,38,232,0,5.6,-5.6,-9.4,-1.8,TRUE,TRUE,Group,Interpret with caution (30-49)
+Shelter type,Rented,1 Not able to access enough food,Blue Nile,54,799,92.6,88.1,4.5,-3.4,12.3,TRUE,FALSE,No clear difference,
+Shelter type,Rented,1 Not able to access enough food,Gedaref,77,981,48.1,67.9,-19.8,-46.1,6.5,TRUE,FALSE,No clear difference,
+Shelter type,Rented,1 Not able to access enough food,Kassala,28,658,,76.3,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Rented,1 Not able to access enough food,Northern,75,1061,48,59.5,-11.5,-33.8,10.9,TRUE,FALSE,No clear difference,
+Shelter type,Rented,1 Not able to access enough food,Red Sea,232,390,39.7,47.4,-7.8,-26.2,10.6,TRUE,FALSE,No clear difference,
+Shelter type,Rented,1 Not able to access enough food,River Nile,66,320,62.1,73.4,-11.3,-25.1,2.5,TRUE,FALSE,No clear difference,
+Shelter type,Rented,1 Not able to access enough food,Sennar,0,380,,85.8,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Rented,1 Not able to access enough food,White Nile,21,821,,77.6,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Rented,2 No household member earning from work,Blue Nile,54,799,37,68.6,-31.5,-49.8,-13.3,TRUE,TRUE,Other IDPs,
+Shelter type,Rented,2 No household member earning from work,Gedaref,77,981,48.1,57.3,-9.2,-35.3,16.8,TRUE,FALSE,No clear difference,
+Shelter type,Rented,2 No household member earning from work,Kassala,28,658,,68.4,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Rented,2 No household member earning from work,Northern,75,1061,21.3,48.4,-27,-45.1,-8.9,TRUE,TRUE,Other IDPs,
+Shelter type,Rented,2 No household member earning from work,Red Sea,232,390,23.3,41.3,-18,-29.9,-6.1,TRUE,TRUE,Other IDPs,
+Shelter type,Rented,2 No household member earning from work,River Nile,66,320,16.7,41.6,-24.9,-38.6,-11.2,TRUE,TRUE,Other IDPs,
+Shelter type,Rented,2 No household member earning from work,Sennar,0,380,,77.1,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Rented,2 No household member earning from work,White Nile,21,821,,68.1,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Rented,3 Difficulty accessing safe drinking water,Blue Nile,54,799,79.6,36.4,43.2,28.7,57.7,TRUE,TRUE,Group,
+Shelter type,Rented,3 Difficulty accessing safe drinking water,Gedaref,77,981,49.4,50.4,-1,-17.8,15.8,TRUE,FALSE,No clear difference,
+Shelter type,Rented,3 Difficulty accessing safe drinking water,Kassala,28,658,,30.2,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Rented,3 Difficulty accessing safe drinking water,Northern,75,1061,28,36.3,-8.3,-20.9,4.3,TRUE,FALSE,No clear difference,
+Shelter type,Rented,3 Difficulty accessing safe drinking water,Red Sea,232,390,85.8,81.5,4.2,-2.8,11.3,TRUE,FALSE,No clear difference,
+Shelter type,Rented,3 Difficulty accessing safe drinking water,River Nile,66,320,28.8,39.7,-10.9,-20.8,-1,TRUE,TRUE,Other IDPs,
+Shelter type,Rented,3 Difficulty accessing safe drinking water,Sennar,0,380,,49.2,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Rented,3 Difficulty accessing safe drinking water,White Nile,21,821,,39.6,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Rented,7 Child aged 6-14 attends school,Blue Nile,11,252,,17.1,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Rented,7 Child aged 6-14 attends school,Gedaref,32,413,68.8,61.5,7.2,-7.7,22.2,TRUE,FALSE,No clear difference,Interpret with caution (30-49)
+Shelter type,Rented,7 Child aged 6-14 attends school,Kassala,10,263,,17.9,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Rented,7 Child aged 6-14 attends school,Northern,27,385,,58.4,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Rented,7 Child aged 6-14 attends school,Red Sea,49,121,6.1,17.4,-11.2,-20.6,-1.9,TRUE,TRUE,Group,Interpret with caution (30-49)
+Shelter type,Rented,7 Child aged 6-14 attends school,River Nile,17,81,,44.4,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Rented,7 Child aged 6-14 attends school,Sennar,0,118,,0,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Rented,7 Child aged 6-14 attends school,White Nile,6,264,,4.9,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Other,1 Not able to access enough food,Blue Nile,76,777,90.8,88.2,2.6,-9.6,14.9,TRUE,FALSE,No clear difference,
+Shelter type,Other,1 Not able to access enough food,Gedaref,14,1044,,66.7,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Other,1 Not able to access enough food,Kassala,30,656,90,73.9,16.1,6.4,25.7,TRUE,TRUE,Group,Interpret with caution (30-49)
+Shelter type,Other,1 Not able to access enough food,Northern,103,1033,55.3,59.1,-3.7,-20.6,13.1,TRUE,FALSE,No clear difference,
+Shelter type,Other,1 Not able to access enough food,Red Sea,3,619,,44.6,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Other,1 Not able to access enough food,River Nile,27,359,,72.4,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Other,1 Not able to access enough food,Sennar,0,380,,85.8,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Other,1 Not able to access enough food,White Nile,17,825,,78.2,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Other,2 No household member earning from work,Blue Nile,76,777,67.1,66.5,0.6,-18.7,19.9,TRUE,FALSE,No clear difference,
+Shelter type,Other,2 No household member earning from work,Gedaref,14,1044,,57,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Other,2 No household member earning from work,Kassala,30,656,53.3,67.8,-14.5,-36.4,7.4,TRUE,FALSE,No clear difference,Interpret with caution (30-49)
+Shelter type,Other,2 No household member earning from work,Northern,103,1033,32,48,-16,-35.5,3.5,TRUE,FALSE,No clear difference,
+Shelter type,Other,2 No household member earning from work,Red Sea,3,619,,34.7,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Other,2 No household member earning from work,River Nile,27,359,,38.2,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Other,2 No household member earning from work,Sennar,0,380,,77.1,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Other,2 No household member earning from work,White Nile,17,825,,67.3,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Other,3 Difficulty accessing safe drinking water,Blue Nile,76,777,71.1,36,35,19.4,50.6,TRUE,TRUE,Group,
+Shelter type,Other,3 Difficulty accessing safe drinking water,Gedaref,14,1044,,50,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Other,3 Difficulty accessing safe drinking water,Kassala,30,656,20,31.4,-11.4,-28.7,5.9,TRUE,FALSE,No clear difference,Interpret with caution (30-49)
+Shelter type,Other,3 Difficulty accessing safe drinking water,Northern,103,1033,24.3,36.9,-12.6,-24.8,-0.5,TRUE,TRUE,Other IDPs,
+Shelter type,Other,3 Difficulty accessing safe drinking water,Red Sea,3,619,,83.2,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Other,3 Difficulty accessing safe drinking water,River Nile,27,359,,37.6,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Other,3 Difficulty accessing safe drinking water,Sennar,0,380,,49.2,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Other,3 Difficulty accessing safe drinking water,White Nile,17,825,,39.8,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Other,7 Child aged 6-14 attends school,Blue Nile,26,237,,16.9,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Other,7 Child aged 6-14 attends school,Gedaref,6,439,,62.2,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Other,7 Child aged 6-14 attends school,Kassala,15,258,,17.1,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Other,7 Child aged 6-14 attends school,Northern,35,377,88.6,56.5,32.1,14.2,49.9,TRUE,TRUE,Other IDPs,Interpret with caution (30-49)
+Shelter type,Other,7 Child aged 6-14 attends school,Red Sea,0,170,,14.1,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Other,7 Child aged 6-14 attends school,River Nile,5,93,,45.2,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Other,7 Child aged 6-14 attends school,Sennar,0,118,,0,,,,FALSE,FALSE,No clear difference,Not reported (under 30)
+Shelter type,Other,7 Child aged 6-14 attends school,White Nile,2,268,,4.5,,,,FALSE,FALSE,No clear difference,Not reported (under 30)

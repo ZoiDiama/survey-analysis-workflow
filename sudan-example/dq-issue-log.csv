@@ -1,0 +1,47 @@
+issue_no,check_id,check,variable,rows_affected,issue,decision,reason
+1,A2,Duplicates,all columns,3,Rows identical to an earlier row,"Keep the first, remove the copies",Exact copies inflate n
+2,A3,Numbers stored as text,year_of_displacement,146,"Not a number, e.g. Unknown",Set to missing,Cannot be used as an age or a year
+3,A4,Survey design,gender,1,Sex recorded as 'Unsure',Set to missing in cleaning,Too few to report
+4,B1,Blank cells,311 columns,188632,Cells hold only spaces instead of being empty,Convert to missing,Otherwise they count as answers and distort denominators
+5,C1,Reconciliation with published report,idp_status,,Kassala: 686 IDP / 764 host by status; report 838 / 577; hosts by questions answered 577,Explain in validation,The report defines the groups differently
+6,C1,Reconciliation with published report,idp_status,,Northern: 1136 IDP / 931 host by status; report 1136 / 702; hosts by questions answered 702,Explain in validation,The report defines the groups differently
+7,C1,Reconciliation with published report,idp_status,,Red Sea: 622 IDP / 413 host by status; report 622 / 404; hosts by questions answered 404,Explain in validation,The report defines the groups differently
+8,C1,Reconciliation with published report,idp_status,,White Nile: 847 IDP / 808 host by status; report 842 / 480; hosts by questions answered 485,Explain in validation,The report defines the groups differently
+9,C2,IDP/host classification,idp_status,187,Kassala: Non-IDP respondents. Answered the other group's questions,"Keep in the sample table, leave out of indicators; sensitivity check",No answers for their own group's questions
+10,C2,IDP/host classification,idp_status,229,Northern: Non-IDP respondents. Answered neither set of questions,"Keep in the sample table, leave out of indicators; sensitivity check",No answers for their own group's questions
+11,C2,IDP/host classification,idp_status,9,Red Sea: Non-IDP respondents. Answered neither set of questions,"Keep in the sample table, leave out of indicators; sensitivity check",No answers for their own group's questions
+12,C2,IDP/host classification,idp_status,5,White Nile: IDP respondents. Answered the other group's questions,"Keep in the sample table, leave out of indicators; sensitivity check",No answers for their own group's questions
+13,C2,IDP/host classification,idp_status,328,White Nile: Non-IDP respondents. Answered the other group's questions,"Keep in the sample table, leave out of indicators; sensitivity check",No answers for their own group's questions
+14,C2,IDP/host classification,original_state,513,Non-IDPs who answered the IDP questions and gave a state of origin: Kassala 187 of 187; White Nile 326 of 328,Report as evidence; sensitivity check by questions answered,Suggests idp_status was miscoded for these respondents
+15,B3,Don't know / prefer not to answer,access_food_now_idp,84,"Northern, IDP: don't know 6.4%, prefer not to answer 1.0%",Show separately (over 5%),"Kept in the denominator, so must be visible"
+16,B3,Don't know / prefer not to answer,num_earners_now_host,39,"Red Sea, Host: don't know 0.0%, prefer not to answer 9.7%",Show separately (over 5%),"Kept in the denominator, so must be visible"
+17,B3,Don't know / prefer not to answer,free_healthcare_now_idp,61,"Northern, IDP: don't know 0.0%, prefer not to answer 5.4%",Show separately (over 5%),"Kept in the denominator, so must be visible"
+18,B2,Missing answers,attendance_now_idp_001,181,"Blue Nile, IDP: 33.2% of 546 households asked did not answer",Flag the indicator (over 10%),High non-response can bias the figure
+19,B2,Missing answers,attendance_now_idp_001,54,"Red Sea, IDP: 22.1% of 244 households asked did not answer",Flag the indicator (over 10%),High non-response can bias the figure
+20,B2,Missing answers,attendance_now_idp_001,24,"River Nile, IDP: 12.1% of 198 households asked did not answer",Flag the indicator (over 10%),High non-response can bias the figure
+21,B2,Missing answers,attendance_now_host,71,"Blue Nile, Host: 45.2% of 157 households asked did not answer",Flag the indicator (over 10%),High non-response can bias the figure
+22,B2,Missing answers,attendance_now_host,43,"Gedaref, Host: 14.2% of 302 households asked did not answer",Flag the indicator (over 10%),High non-response can bias the figure
+23,B2,Missing answers,attendance_now_host,31,"Red Sea, Host: 28.7% of 108 households asked did not answer",Flag the indicator (over 10%),High non-response can bias the figure
+24,B2,Missing answers,attendance_now_host,22,"River Nile, Host: 13.8% of 159 households asked did not answer",Flag the indicator (over 10%),High non-response can bias the figure
+25,C4,Education eligibility,age_child,860,IDP households: child's recorded age outside 6-14,Exclude from indicator 7,The indicator is defined for children aged 6-14
+26,C4,Education eligibility,age_child,434,Host households: child's recorded age outside 6-14,Exclude from indicator 7,The indicator is defined for children aged 6-14
+27,D1,Plausibility,age,13,"Age over 100 (some are years, e.g. 2023)",Set to missing,Not a plausible age
+28,D1,Plausibility,age,57,Age under 18,Flag only,Possible: a young person can be the main earner
+29,D2,Plausibility,num_children_0_5,1,"Negative, not whole, or above 20 (maximum 60 )",Flag only,Not used in any indicator; no correction without evidence
+30,D2,Plausibility,num_children_6_14,7,"Negative, not whole, or above 20 (maximum 20008 )",Flag only,Not used in any indicator; no correction without evidence
+31,D2,Plausibility,num_children_15_17,1,"Negative, not whole, or above 20 (maximum 100 )",Flag only,Not used in any indicator; no correction without evidence
+32,D2,Plausibility,num_adults_18_64,27,"Negative, not whole, or above 20 (maximum 69 )",Flag only,Not used in any indicator; no correction without evidence
+33,D2,Plausibility,num_elderly_65_over,11,"Negative, not whole, or above 20 (maximum 85 )",Flag only,Not used in any indicator; no correction without evidence
+34,D4,Answer list,meals_per_day_now_host,496,Answers not in the codebook list: 3,Review before use,Indicator definitions rely on the codebook answers
+35,E2,Derived variable,disability_hh,673,Matches the WG cut-off for OTHER members in 100.0% of rows: it leaves out the respondent,Use disability_hh OR disability_hh_head (1257 households),Otherwise households where only the respondent has a disability are missed
+36,E2,Derived variable,disability_hh_head,816,Matches the WG cut-off for the RESPONDENT in 100.0% of rows (label says household head),Document the rule,Label does not match the question
+37,E2,Derived variable,elderly_living_home,1690,Missing for IDP households (household counts not always asked; respondent not always counted),Older people dropped from SQ2,Too many unknowns to compare reliably
+38,E3,Contradictory answers,"No earner, but resources are enough",123,"IDP: No earner, but resources are enough","Flag only, report",There is no way to know which answer is right
+39,E3,Contradictory answers,"No earner, but resources are enough",31,"Host: No earner, but resources are enough","Flag only, report",There is no way to know which answer is right
+40,E3,Contradictory answers,"Enough food, but one meal a day or none",317,"IDP: Enough food, but one meal a day or none","Flag only, report",There is no way to know which answer is right
+41,E3,Contradictory answers,"Enough food, but one meal a day",95,"Host: Enough food, but one meal a day","Flag only, report",There is no way to know which answer is right
+42,F,Codebook,meals_per_day_now_*,,"Hosts were offered 1, 2 or 3 meals; IDPs also 'No regular meals'",Meals indicator dropped,The two groups were offered different answers
+43,F,Codebook,"gender, age, disability_hh_head",,"Labelled 'of household head', but asked of the respondent",Report as 'of respondent',The respondent may not be the head
+44,G1,Clusters,City_Settlement,1350,Settlement names are free text; spelling variants may split one settlement,Cluster by name as recorded; note in limitations,No clean settlement ID in the data
+45,G2,Cell sizes,SQ2 groups,7,Fewer than 30 IDP households: Gedaref Shelter: Other; Kassala Shelter: Rented; Red Sea Shelter: Other; River Nile Shelter: Other; White Nile Sex: Unsure; White Nile Shelter: Other; White Nile Shelter: Rented,Not reported,Minimum cell size in the analysis plan
+46,H,Not checkable,"interviewer, time, GPS",,Not in the public file,State in the limitations,Usual checks for rushed or invented interviews are not possible

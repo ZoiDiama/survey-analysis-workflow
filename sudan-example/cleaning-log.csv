@@ -1,0 +1,11 @@
+order,variable,rows_changed,rule,from_check
+1,all columns,188632,Blank or space-only cells set to missing,B1
+2,all columns,3,Rows identical to an earlier row removed,A2
+3,age,13,Ages over 100 set to missing; under 18 kept and flagged,D1
+3,year_of_displacement,146,'Unknown' and years outside 1950-2024 set to missing,"A3, D3"
+4,disability_household,1257,Yes if disability_hh OR disability_hh_head is Yes,E2
+4,sex_respondent,1,'Unsure' set to missing,A4
+4,cluster_id,1358,State and settlement name replaced by a number,G1
+5,ind7_school,1294,Children aged outside 6-14 left out of the denominator,C4
+5,ind1-ind7,,Missing answers left out of the denominator; don't know and prefer not to answer kept,Plan rule
+5,sensitivity version,520,Indicators rebuilt with the group defined by the questions answered,C2

@@ -1,0 +1,8 @@
+check,what,result,status,action
+P1,Shares based on fewer than 30 households,0 shares found in tables T2 and T3,Pass,Shares under 30 are blanked in 03_analysis.R; counts are kept
+P2,Place names below state level in the tables,0 place names found,Pass,Results are published by state only
+P3,Identifying or sensitive variables in the analysis file,0 of 11 checked variables present,Pass,The analysis file keeps only groups and indicators (02_cleaning.R)
+P4a,"Rare combinations: state, group, sex, disability, shelter",46 households (0.5%),Pass,Only state-level results are published
+P4b,"Rare combinations, adding the settlement",2373 households (23.8%),Review,Do not publish household-level data
+P5,Settlements with fewer than 3 households,822 of 1302 settlements,Review,Used only for confidence intervals; never reported or mapped
+P6,Free-text answers with a phone-like number,0 of 3799 free-text answers,Pass,"Free text is not used, published or quoted"
