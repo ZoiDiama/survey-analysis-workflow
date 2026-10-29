@@ -1,0 +1,25 @@
+figure_id,page,nrc_wording,group,state,nrc_value,our_variable,transform,measure_match
+F01,2,"70 per cent of IDP and 56 per cent of host community families reported the inability to purchase sufficient food",IDP,Six states,70,ind1_food,pct,Same question (assumed)
+F02,2,"70 per cent of IDP and 56 per cent of host community families reported the inability to purchase sufficient food",Host,Six states,56,ind1_food,pct,Same question (assumed)
+F03,9,"high proportions of IDP households reporting inability in Blue Nile (89 per cent)",IDP,Blue Nile,89,ind1_food,pct,Same question (assumed)
+F04,9,"White Nile (77 per cent)",IDP,White Nile,77,ind1_food,pct,Same question (assumed)
+F05,9,"Kassala (73 per cent)",IDP,Kassala,73,ind1_food,pct,Same question (assumed)
+F06,9,"the lowest proportions reported in Red Sea (45 per cent)",IDP,Red Sea,45,ind1_food,pct,Same question (assumed)
+F07,9,"For host community households, the state with the highest proportions of families indicating heightened levels of food insecurity is Blue Nile at 85 per cent",Host,Blue Nile,85,ind1_food,pct,Wording differs ('heightened food insecurity')
+F08,8,"Complete unemployment was found in 56 per cent of IDP and 24 per cent of host community households",IDP,Six states,56,ind2_noearner,pct,Same question (assumed)
+F09,8,"Complete unemployment was found in 56 per cent of IDP and 24 per cent of host community households",Host,Six states,24,ind2_noearner,pct,Same question (assumed)
+F10,14,"41 per cent of IDP households and 38 per cent of host community households currently face difficulties in accessing safe drinking water",IDP,Six states,41,ind3_water,pct,Same question
+F11,14,"41 per cent of IDP households and 38 per cent of host community households currently face difficulties in accessing safe drinking water",Host,Six states,38,ind3_water,pct,Same question
+F12,14,"particularly in Red Sea, where the highest proportions of both IDPs (83 per cent) and host community households (64 per cent) were recorded",IDP,Red Sea,83,ind3_water,pct,Same question
+F13,14,"particularly in Red Sea, where the highest proportions of both IDPs (83 per cent) and host community households (64 per cent) were recorded",Host,Red Sea,64,ind3_water,pct,Same question
+F14,2,"14 per cent of IDPs and 8 per cent of host families have no latrines where they live",IDP,Six states,14,ind4_nolatrine,pct,Same question
+F15,2,"14 per cent of IDPs and 8 per cent of host families have no latrines where they live",Host,Six states,8,ind4_nolatrine,pct,Same question
+F16,14,"13 per cent of IDP households and 9 per cent of host community households reported no available latrines in their current shelters",IDP,Six states,13,ind4_nolatrine,pct,Same question (same figure as F14 reported differently)
+F17,14,"13 per cent of IDP households and 9 per cent of host community households reported no available latrines in their current shelters",Host,Six states,9,ind4_nolatrine,pct,Same question (same figure as F15 reported differently)
+F18,13,"91 per cent of IDPs and 34 per cent of host community households reported being in urgent need of non-food items (NFIs)",IDP,Six states,91,ind5_nfi,pct,Same question
+F19,13,"91 per cent of IDPs and 34 per cent of host community households reported being in urgent need of non-food items (NFIs)",Host,Six states,34,ind5_nfi,pct,Same question
+F20,13,"For host community households, the state reporting the highest levels of need is Northern at 66 per cent",Host,Northern,66,ind5_nfi,pct,Same question
+F21,16,"75 per cent of IDP and 61 per cent of host community households reported that their school-aged children in all states are currently not attending school",IDP,Six states,75,ind7_school,100 - pct,Same question; our indicator is the complement (attends)
+F22,16,"75 per cent of IDP and 61 per cent of host community households reported that their school-aged children in all states are currently not attending school",Host,Six states,61,ind7_school,100 - pct,Same question; our indicator is the complement (attends)
+F23,16,"with the highest levels reported in White Nile for both IDP (95 per cent) and host community (98 per cent) households",IDP,White Nile,95,ind7_school,100 - pct,Same question; our indicator is the complement (attends)
+F24,16,"with the highest levels reported in White Nile for both IDP (95 per cent) and host community (98 per cent) households",Host,White Nile,98,ind7_school,100 - pct,Same question; our indicator is the complement (attends)

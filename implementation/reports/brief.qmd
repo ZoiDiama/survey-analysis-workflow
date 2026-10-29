@@ -1,0 +1,127 @@
+---
+title: "Displaced and host households in Sudan: how they compare"
+subtitle: "Evidence from 10,735 household interviews in eight states, 2024"
+author: "Zoi Diamantakou"
+date: today
+date-format: "MMMM YYYY"
+format:
+  html:
+    toc: false
+    embed-resources: true
+    css: brief.css
+    fig-align: left
+  typst:
+    papersize: a4
+    margin: {x: 2cm, y: 1.8cm}
+    mainfont: Poppins
+    fontsize: 9.5pt
+    fig-format: png
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r setup}
+# Every number in this brief is read from the outputs of R/01-06.
+# Run the six scripts first.
+suppressPackageStartupMessages(library(tidyverse))
+tab <- function(f) read_csv(file.path("../output/tables", f), show_col_types = FALSE)
+T1 <- tab("T1_sample.csv");  T2 <- tab("T2_idp_and_host.csv"); s2 <- tab("T2_summary.csv")
+T3s <- tab("T3_summary.csv"); T4 <- tab("T4_recall.csv"); docs_t <- tab("T4_lost_documents.csv")
+T6 <- tab("T6_validation.csv"); S1 <- tab("S1_sensitivity.csv")
+
+n0  <- function(x) format(round(x), big.mark = ",")
+# Round half up: tables hold values rounded to 1 decimal, and R rounds 44.5 down
+rnd <- function(x) floor(x + 0.5)
+pct <- function(x) paste0(rnd(x), "%")
+
+n_interviews <- sum(select(T1, -state)) + 3          # + the 3 duplicate rows removed
+n_idp  <- sum(T1$`Analysed: IDP`); n_host <- sum(T1$`Analysed: Host`)
+worse  <- function(pattern) s2$idps_worse_off[str_detect(s2$indicator, pattern)]
+earn   <- range(T2$difference[T2$indicator == "2 No household member earning from work" & T2$clear])
+school_clear  <- filter(T2, indicator == "7 Child aged 6-14 attends school", clear)
+sennar_school <- filter(T2, indicator == "7 Child aged 6-14 attends school", state == "Sennar")
+food_before <- range(T4$pct_before[str_detect(T4$indicator, "^R1")]); food_now <- range(T4$pct_now[str_detect(T4$indicator, "^R1")])
+earn_before <- range(T4$pct_before[str_detect(T4$indicator, "^R2")]); earn_now <- range(T4$pct_now[str_detect(T4$indicator, "^R2")])
+docs <- range(docs_t$r3_lost_docs)
+camps_work <- filter(T3s, group == "Camps and sites", str_detect(indicator, "^2 "))
+dis_food   <- filter(T3s, group == "Yes", str_detect(indicator, "^1 "))
+v <- function(def, x) sum(T6[[def]] == x)
+f19 <- filter(T6, figure_id == "F19")
+n_issues <- nrow(read_csv("../output/dq_log.csv", show_col_types = FALSE))
+n_sens_changes <- sum(S1$verdict_changes, na.rm = TRUE)
+stopifnot(all(s2$hosts_worse_off == 0), !any(T3s$consistently_worse_off))
+
+# The PDF engine only reads files inside this folder: copy the charts here.
+dir.create("figures", showWarnings = FALSE)
+invisible(file.copy(list.files("../output/figures", full.names = TRUE), "figures", overwrite = TRUE))
+```
+
+::: {.callout-note appearance="minimal"}
+## Key findings
+
+- **Displaced households (IDPs) are worse off than the host households around them on all seven indicators, each in at least `r min(s2$idps_worse_off)` of 8 states; hosts are never clearly worse off.** The difference is widest and most consistent for work: in every state, IDP households are `r rnd(earn[1])` to `r rnd(earn[2])` percentage points more likely to have no one earning money.
+- **Conditions do not differ consistently among IDP households.** No group (by sex of respondent, disability or type of shelter) is consistently worse off than other IDPs across states.
+- **IDPs recall a sharp loss of food and work since leaving home.** The share unable to get enough food rose from `r pct(food_before[1])`–`r pct(food_before[2])` before displacement to `r pct(food_now[1])`–`r pct(food_now[2])` now, and `r pct(docs[1])`–`r pct(docs[2])` lost at least one personal document.
+- **The public data reproduce `r v("verdict_pooled", "Reproduced")` of `r nrow(T6)` figures in the published report.** The largest difference concerns host communities: in the six states the report covers, `r rnd(f19$pooled)`% of hosts report an urgent need of non-food items, not `r f19$nrc_value`%.
+:::
+
+## The survey
+
+The Norwegian Refugee Council (NRC) and local partners interviewed `r n0(n_interviews)` households in eight states of Sudan in August and November 2024, for the Internal Displacement Monitoring Centre (IDMC). This brief compares `r n0(n_idp)` IDP households with `r n0(n_host)` host households living in the same states; respondents who answered the other group's questions, or none, are left out (see *How this was done*).
+
+The sample is not random across Sudan and has no weights, so **figures describe the surveyed households only** and are given **state by state**, never as an average for Sudan. A difference is called *clear* when its 95% confidence interval excludes zero and it is at least 5 percentage points.
+
+## How IDP and host households compare
+
+![](figures/chart_1_overview.png){width=100%}
+
+IDPs are clearly worse off on **work** in all 8 states, on **free access to a health professional** in `r worse("health")`, on **food** and **urgent need of non-food items** in `r worse("food$")` each, and on **school attendance** and **latrines** in `r worse("school")`. **Safe drinking water** is the exception: in most states IDPs and hosts report similar difficulty.
+
+![](figures/chart_2_work.png){width=100%}
+
+Where the school differences are clear, they are large: IDP children aged 6–14 are `r rnd(min(abs(school_clear$difference)))` to `r rnd(max(abs(school_clear$difference)))` points less likely to attend school than host children (`r paste(school_clear$state, collapse = ", ")`). In Sennar no child in either group attends school (`r pct(sennar_school$pct_idp)`). The questionnaire had no answer for schools being closed, which is the likely explanation.
+
+## Do conditions differ among IDP households?
+
+Differences among IDP households are small next to the difference with hosts. Households living in **camps and other sites** are more likely to have no one earning in `r camps_work$clearly_worse_off` of `r camps_work$states_reported` states where this can be measured, and households with **a member with a disability** are more likely to lack enough food in `r dis_food$clearly_worse_off` of `r dis_food$states_reported`. Neither pattern holds in at least half the states, so no group is called *consistently worse off*. Some groups are too small to report in some states (fewer than 30 households), for example rented accommodation in Kassala and White Nile.
+
+## Before leaving home and now
+
+IDPs were asked about their situation before they left home. These answers are recalled, so they show change as people report it, not as measured at two points in time.
+
+| In every state… | Before leaving home | Now |
+|---|---|---|
+| Not able to access enough food | `r pct(food_before[1])`–`r pct(food_before[2])` | `r pct(food_now[1])`–`r pct(food_now[2])` |
+| No household member earning from work | `r pct(earn_before[1])`–`r pct(earn_before[2])` | `r pct(earn_now[1])`–`r pct(earn_now[2])` |
+
+Between `r pct(docs[1])` and `r pct(docs[2])` of IDP households lost at least one personal document while displaced, most often birth certificates and identity cards.
+
+## Do the public data match the published report?
+
+![](figures/chart_3_validation.png){width=70%}
+
+Of `r nrow(T6)` figures in the report *Bursting at the seams* that match this brief's indicators, `r v("verdict_pooled", "Reproduced")` are reproduced within 2 points, `r v("verdict_pooled", "Close")` within 5, and `r v("verdict_pooled", "Not reproduced")` are not reproduced. The report does not say how its six-state figures are calculated; the result is the same whether they are calculated as pooled shares or as the average of the state shares. The largest difference is the share of **host households in urgent need of non-food items**: `r f19$nrc_value`% in the report, `r rnd(f19$pooled)`% in the data. Dividing the number of hosts in need by *all* respondents gives `r f19$all_respondents_denominator`%, close to the published figure, which suggests a denominator error in the report. This is a hypothesis, not proof.
+
+## What this means
+
+- **Livelihoods show the clearest difference.** Support for displaced people to earn an income is the need shared across every state surveyed.
+- **Many host households also report high needs** on food, water and non-food items, and the published figure for non-food items probably understates them.
+- **These data do not support targeting within IDPs by sex, disability or shelter alone;** the state and the IDP–host difference matter more.
+
+## Limitations
+
+- Not representative of all IDPs or hosts in Sudan; no weights; the November round (River Nile, Sennar) is a different moment of the conflict.
+- Self-reported answers; food is measured by simple questions, not standard food security scales.
+- Safety and documentation cannot be compared with hosts, who were not asked comparable questions.
+- Settlement names are free text, so confidence intervals may be slightly too narrow.
+- 515 respondents classed as non-IDPs answered the questions for IDPs, and almost all gave a state of origin, so their status is probably miscoded. Classifying respondents by the questions they answered changes `r n_sens_changes` result (water in White Nile).
+
+## How this was done
+
+The analysis follows a documented workflow: a data quality check (`r n_issues` issues logged, each with a decision), cleaning without editing the raw file, seven indicators chosen against four criteria, comparisons with confidence intervals clustered by settlement, a sensitivity check, validation against the published report, and a disclosure check before publication. The comparison of IDPs with a non-displaced population follows the International Recommendations on IDP Statistics (IRIS); this is not a measure of durable solutions.
+
+Only code and state-level results are published: no household data, place names, free text or language.
+
+**Data:** IDMC, *Sudan: Socio-Economic Impacts of Internal Displacement*, HDX, licence CC BY 4.0. **Report:** NRC (2024), *Bursting at the seams: the impact of war and displacement on Sudan's eastern cities*. **Method and code:** github.com/ZoiDiama/survey-analysis-workflow

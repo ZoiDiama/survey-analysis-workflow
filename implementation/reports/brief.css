@@ -1,0 +1,13 @@
+/* Brief styling: portfolio design system (Poppins, navy headings, teal links) */
+body { font-family: "Poppins", system-ui, sans-serif; color: #4A4640; font-size: 16px; line-height: 1.65; max-width: 760px; }
+h1.title { color: #1A2A40; font-weight: 600; font-size: 34px; line-height: 1.2; }
+p.subtitle { color: #555555; font-size: 19px; }
+h2 { color: #1A2A40; font-weight: 600; font-size: 24px; margin-top: 2rem; }
+a { color: #1F7A80; }
+a:hover { color: #165A5E; }
+strong { color: #1F1F1F; }
+.callout { background: #FAF8F5; border: 1px solid #ECE7E0 !important; border-radius: 12px; padding: 1rem 1.25rem; }
+.callout h2 { margin-top: 0; font-size: 20px; }
+table { font-size: 15px; }
+th { color: #1A2A40; }
+img { border-radius: 8px; }
