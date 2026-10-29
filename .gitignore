@@ -1,0 +1,17 @@
+# Survey microdata and anything derived from it: never published (see workflow/07-data-protection.md)
+implementation/data/raw/
+implementation/data/clean/
+
+# Script outputs: the published copies are in sudan-example/
+implementation/output/
+implementation/reports/figures/
+implementation/reports/*_files/
+implementation/reports/*.html
+
+# R, RStudio, Quarto, system
+.Rhistory
+.RData
+.Rproj.user/
+.quarto/
+.DS_Store
+Thumbs.db
